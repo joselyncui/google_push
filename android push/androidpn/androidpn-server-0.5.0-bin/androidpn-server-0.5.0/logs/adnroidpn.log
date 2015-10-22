@@ -1,0 +1,280 @@
+{DEBUG} [2014-02-18 10:13:47,025] <org.androidpn.server.xmpp.XmppServer> : base.dir=..
+{DEBUG} [2014-02-18 10:13:47,049] <org.apache.commons.configuration.ConfigurationUtils> : ConfigurationUtils.locate(): base is C:\Users\MGC01\Desktop\androidpn-server-0.5.0-bin\androidpn-server-0.5.0\bin, name is config.xml
+{DEBUG} [2014-02-18 10:13:47,053] <org.apache.commons.configuration.ConfigurationUtils> : Loading configuration from the context classpath (config.xml)
+{DEBUG} [2014-02-18 10:13:47,139] <org.apache.commons.configuration.ConfigurationUtils> : ConfigurationUtils.locate(): base is C:\Users\MGC01\Desktop\androidpn-server-0.5.0-bin\androidpn-server-0.5.0\bin, name is config.properties
+{DEBUG} [2014-02-18 10:13:47,140] <org.apache.commons.configuration.ConfigurationUtils> : Loading configuration from the context classpath (config.properties)
+{INFO } [2014-02-18 10:13:47,152] <org.androidpn.server.util.ConfigManager> : Configuration loaded: config.xml
+{DEBUG} [2014-02-18 10:13:47,153] <org.androidpn.server.xmpp.XmppServer> : server.home.dir=C:\Users\MGC01\Desktop\androidpn-server-0.5.0-bin\androidpn-server-0.5.0
+{INFO } [2014-02-18 10:13:47,184] <org.springframework.context.support.ClassPathXmlApplicationContext> : Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@228ef305: display name [org.springframework.context.support.ClassPathXmlApplicationContext@228ef305]; startup date [Tue Feb 18 10:13:47 CST 2014]; root of context hierarchy
+{INFO } [2014-02-18 10:13:47,239] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from class path resource [spring-config.xml]
+{INFO } [2014-02-18 10:13:47,413] <org.springframework.context.support.ClassPathXmlApplicationContext> : Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@228ef305]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2a9530a5
+{INFO } [2014-02-18 10:13:47,479] <org.springframework.beans.factory.config.PropertyPlaceholderConfigurer> : Loading properties file from class path resource [jdbc.properties]
+{INFO } [2014-02-18 10:13:47,491] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a9530a5: defining beans [propertyConfigurer,dataSource,sessionFactory,transactionManager,userDao,userService,org.springframework.beans.factory.config.CustomEditorConfigurer#0,xmppHandler,filterChainBuilder,ioAcceptor]; root of factory hierarchy
+{INFO } [2014-02-18 10:13:47,554] <org.hibernate.cfg.annotations.Version> : Hibernate Annotations 3.4.0.GA
+{INFO } [2014-02-18 10:13:47,565] <org.hibernate.cfg.Environment> : Hibernate 3.3.1.GA
+{INFO } [2014-02-18 10:13:47,568] <org.hibernate.cfg.Environment> : hibernate.properties not found
+{INFO } [2014-02-18 10:13:47,570] <org.hibernate.cfg.Environment> : Bytecode provider name : javassist
+{INFO } [2014-02-18 10:13:47,573] <org.hibernate.cfg.Environment> : using JDK 1.4 java.sql.Timestamp handling
+{INFO } [2014-02-18 10:13:47,612] <org.hibernate.annotations.common.Version> : Hibernate Commons Annotations 3.1.0.GA
+{INFO } [2014-02-18 10:13:47,616] <org.hibernate.cfg.Configuration> : configuring from url: file:/C:/Users/MGC01/Desktop/androidpn-server-0.5.0-bin/androidpn-server-0.5.0/conf/hibernate.cfg.xml
+{INFO } [2014-02-18 10:13:47,664] <org.hibernate.cfg.Configuration> : Configured SessionFactory: null
+{INFO } [2014-02-18 10:13:47,696] <org.hibernate.cfg.AnnotationBinder> : Binding entity from annotated class: org.androidpn.server.model.User
+{INFO } [2014-02-18 10:13:47,720] <org.hibernate.cfg.annotations.EntityBinder> : Bind entity org.androidpn.server.model.User on table apn_user
+{INFO } [2014-02-18 10:13:47,753] <org.hibernate.cfg.AnnotationConfiguration> : Hibernate Validator not found: ignoring
+{INFO } [2014-02-18 10:13:47,753] <org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean> : Building new Hibernate SessionFactory
+{INFO } [2014-02-18 10:13:47,755] <org.hibernate.cfg.search.HibernateSearchEventListenerRegister> : Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+{INFO } [2014-02-18 10:13:47,788] <org.hibernate.connection.ConnectionProviderFactory> : Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+{INFO } [2014-02-18 10:13:47,947] <org.hibernate.cfg.SettingsFactory> : RDBMS: HSQL Database Engine, version: 1.8.0
+{INFO } [2014-02-18 10:13:47,948] <org.hibernate.cfg.SettingsFactory> : JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+{INFO } [2014-02-18 10:13:47,958] <org.hibernate.dialect.Dialect> : Using dialect: org.hibernate.dialect.HSQLDialect
+{INFO } [2014-02-18 10:13:47,960] <org.hibernate.transaction.TransactionFactoryFactory> : Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+{INFO } [2014-02-18 10:13:47,961] <org.hibernate.transaction.TransactionManagerLookupFactory> : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+{INFO } [2014-02-18 10:13:47,962] <org.hibernate.cfg.SettingsFactory> : Automatic flush during beforeCompletion(): disabled
+{INFO } [2014-02-18 10:13:47,962] <org.hibernate.cfg.SettingsFactory> : Automatic session close at end of transaction: disabled
+{INFO } [2014-02-18 10:13:47,963] <org.hibernate.cfg.SettingsFactory> : JDBC batch size: 15
+{INFO } [2014-02-18 10:13:47,963] <org.hibernate.cfg.SettingsFactory> : JDBC batch updates for versioned data: disabled
+{INFO } [2014-02-18 10:13:47,968] <org.hibernate.cfg.SettingsFactory> : Scrollable result sets: enabled
+{INFO } [2014-02-18 10:13:47,968] <org.hibernate.cfg.SettingsFactory> : JDBC3 getGeneratedKeys(): disabled
+{INFO } [2014-02-18 10:13:47,969] <org.hibernate.cfg.SettingsFactory> : Connection release mode: auto
+{INFO } [2014-02-18 10:13:47,971] <org.hibernate.cfg.SettingsFactory> : Default batch fetch size: 1
+{INFO } [2014-02-18 10:13:47,971] <org.hibernate.cfg.SettingsFactory> : Generate SQL with comments: enabled
+{INFO } [2014-02-18 10:13:47,971] <org.hibernate.cfg.SettingsFactory> : Order SQL updates by primary key: disabled
+{INFO } [2014-02-18 10:13:47,973] <org.hibernate.cfg.SettingsFactory> : Order SQL inserts for batching: disabled
+{INFO } [2014-02-18 10:13:47,973] <org.hibernate.cfg.SettingsFactory> : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+{INFO } [2014-02-18 10:13:47,975] <org.hibernate.hql.ast.ASTQueryTranslatorFactory> : Using ASTQueryTranslatorFactory
+{INFO } [2014-02-18 10:13:47,976] <org.hibernate.cfg.SettingsFactory> : Query language substitutions: {}
+{INFO } [2014-02-18 10:13:47,976] <org.hibernate.cfg.SettingsFactory> : JPA-QL strict compliance: disabled
+{INFO } [2014-02-18 10:13:47,976] <org.hibernate.cfg.SettingsFactory> : Second-level cache: enabled
+{INFO } [2014-02-18 10:13:47,979] <org.hibernate.cfg.SettingsFactory> : Query cache: disabled
+{INFO } [2014-02-18 10:13:47,981] <org.hibernate.cfg.SettingsFactory> : Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+{INFO } [2014-02-18 10:13:47,982] <org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge> : Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+{INFO } [2014-02-18 10:13:47,984] <org.hibernate.cfg.SettingsFactory> : Optimize cache for minimal puts: disabled
+{INFO } [2014-02-18 10:13:47,984] <org.hibernate.cfg.SettingsFactory> : Structured second-level cache entries: disabled
+{INFO } [2014-02-18 10:13:47,988] <org.hibernate.cfg.SettingsFactory> : Statistics: disabled
+{INFO } [2014-02-18 10:13:47,988] <org.hibernate.cfg.SettingsFactory> : Deleted entity synthetic identifier rollback: disabled
+{INFO } [2014-02-18 10:13:47,989] <org.hibernate.cfg.SettingsFactory> : Default entity-mode: pojo
+{INFO } [2014-02-18 10:13:47,989] <org.hibernate.cfg.SettingsFactory> : Named query checking : enabled
+{INFO } [2014-02-18 10:13:48,027] <org.hibernate.impl.SessionFactoryImpl> : building session factory
+{INFO } [2014-02-18 10:13:48,223] <org.hibernate.impl.SessionFactoryObjectFactory> : Not binding factory to JNDI, no JNDI name configured
+{INFO } [2014-02-18 10:13:48,227] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : Running hbm2ddl schema update
+{INFO } [2014-02-18 10:13:48,228] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : fetching database metadata
+{INFO } [2014-02-18 10:13:48,235] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : updating schema
+{INFO } [2014-02-18 10:13:48,245] <org.hibernate.tool.hbm2ddl.DatabaseMetadata> : table not found: apn_user
+{INFO } [2014-02-18 10:13:48,246] <org.hibernate.tool.hbm2ddl.DatabaseMetadata> : table not found: apn_user
+{INFO } [2014-02-18 10:13:48,249] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : schema update complete
+{INFO } [2014-02-18 10:13:48,270] <org.springframework.orm.hibernate3.HibernateTransactionManager> : Using DataSource [org.apache.commons.dbcp.BasicDataSource@7baa3dd] of Hibernate SessionFactory for HibernateTransactionManager
+{DEBUG} [2014-02-18 10:13:48,346] <org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder> : LinkedHashMap is an ordered map.
+{INFO } [2014-02-18 10:13:48,377] <org.androidpn.server.xmpp.XmppServer> : Spring Configuration loaded.
+{INFO } [2014-02-18 10:13:48,426] <org.mortbay.log> : Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+{INFO } [2014-02-18 10:13:48,430] <org.mortbay.log> : jetty-6.1.25
+{INFO } [2014-02-18 10:13:48,650] </> : Initializing Spring root WebApplicationContext
+{INFO } [2014-02-18 10:13:48,650] <org.springframework.web.context.ContextLoader> : Root WebApplicationContext: initialization started
+{INFO } [2014-02-18 10:13:48,653] <org.springframework.web.context.support.XmlWebApplicationContext> : Refreshing org.springframework.web.context.support.XmlWebApplicationContext@4dbff46f: display name [Root WebApplicationContext]; startup date [Tue Feb 18 10:13:48 CST 2014]; root of context hierarchy
+{INFO } [2014-02-18 10:13:48,656] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+{INFO } [2014-02-18 10:13:48,674] <org.springframework.web.context.support.XmlWebApplicationContext> : Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@4dbff46f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@561b6dc8
+{INFO } [2014-02-18 10:13:48,680] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@561b6dc8: defining beans []; root of factory hierarchy
+{INFO } [2014-02-18 10:13:48,681] <org.springframework.web.context.ContextLoader> : Root WebApplicationContext: initialization completed in 30 ms
+{INFO } [2014-02-18 10:13:48,722] </> : Initializing Spring FrameworkServlet 'dispatcher'
+{INFO } [2014-02-18 10:13:48,722] <org.springframework.web.servlet.DispatcherServlet> : FrameworkServlet 'dispatcher': initialization started
+{INFO } [2014-02-18 10:13:48,724] <org.springframework.web.context.support.XmlWebApplicationContext> : Refreshing org.springframework.web.context.support.XmlWebApplicationContext@4b131fe3: display name [WebApplicationContext for namespace 'dispatcher-servlet']; startup date [Tue Feb 18 10:13:48 CST 2014]; parent: org.springframework.web.context.support.XmlWebApplicationContext@4dbff46f
+{INFO } [2014-02-18 10:13:48,724] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+{INFO } [2014-02-18 10:13:48,744] <org.springframework.web.context.support.XmlWebApplicationContext> : Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@4b131fe3]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1246c18c
+{INFO } [2014-02-18 10:13:48,762] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1246c18c: defining beans [urlMapping,filenameController,userController,sessionController,notificationController,paramResolver,viewResolver,messageSource]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@561b6dc8
+{DEBUG} [2014-02-18 10:13:48,779] <org.androidpn.server.console.controller.NotificationController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.NotificationController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:13:48,780] <org.androidpn.server.console.controller.NotificationController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.NotificationController.send(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:13:48,795] <org.androidpn.server.console.controller.UserController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.UserController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:13:48,804] <org.androidpn.server.console.controller.SessionController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.SessionController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{INFO } [2014-02-18 10:13:48,837] <org.springframework.web.servlet.DispatcherServlet> : FrameworkServlet 'dispatcher': initialization completed in 114 ms
+{INFO } [2014-02-18 10:13:48,841] <org.mortbay.log> : Started SelectChannelConnector@127.0.0.1:7070
+{DEBUG} [2014-02-18 10:13:48,841] <org.androidpn.server.container.AdminConsole> : Admin console started.
+{INFO } [2014-02-18 10:13:48,842] <org.androidpn.server.xmpp.XmppServer> : Admin console listening at http://127.0.0.1:7070
+{INFO } [2014-02-18 10:13:48,842] <org.androidpn.server.xmpp.XmppServer> : XmppServer started: 127.0.0.1
+{INFO } [2014-02-18 10:13:48,843] <org.androidpn.server.xmpp.XmppServer> : Androidpn Server v0.5.0
+{DEBUG} [2014-02-18 10:24:50,268] <org.androidpn.server.xmpp.XmppServer> : base.dir=..
+{DEBUG} [2014-02-18 10:24:50,291] <org.apache.commons.configuration.ConfigurationUtils> : ConfigurationUtils.locate(): base is C:\Users\MGC01\Desktop\android push\android GCM\androidpn-server-0.5.0-bin\androidpn-server-0.5.0\bin, name is config.xml
+{DEBUG} [2014-02-18 10:24:50,295] <org.apache.commons.configuration.ConfigurationUtils> : Loading configuration from the context classpath (config.xml)
+{DEBUG} [2014-02-18 10:24:50,384] <org.apache.commons.configuration.ConfigurationUtils> : ConfigurationUtils.locate(): base is C:\Users\MGC01\Desktop\android push\android GCM\androidpn-server-0.5.0-bin\androidpn-server-0.5.0\bin, name is config.properties
+{DEBUG} [2014-02-18 10:24:50,384] <org.apache.commons.configuration.ConfigurationUtils> : Loading configuration from the context classpath (config.properties)
+{INFO } [2014-02-18 10:24:50,392] <org.androidpn.server.util.ConfigManager> : Configuration loaded: config.xml
+{DEBUG} [2014-02-18 10:24:50,393] <org.androidpn.server.xmpp.XmppServer> : server.home.dir=C:\Users\MGC01\Desktop\android push\android GCM\androidpn-server-0.5.0-bin\androidpn-server-0.5.0
+{INFO } [2014-02-18 10:24:50,425] <org.springframework.context.support.ClassPathXmlApplicationContext> : Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@228ef305: display name [org.springframework.context.support.ClassPathXmlApplicationContext@228ef305]; startup date [Tue Feb 18 10:24:50 CST 2014]; root of context hierarchy
+{INFO } [2014-02-18 10:24:50,474] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from class path resource [spring-config.xml]
+{INFO } [2014-02-18 10:24:50,649] <org.springframework.context.support.ClassPathXmlApplicationContext> : Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@228ef305]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2a9530a5
+{INFO } [2014-02-18 10:24:50,694] <org.springframework.beans.factory.config.PropertyPlaceholderConfigurer> : Loading properties file from class path resource [jdbc.properties]
+{INFO } [2014-02-18 10:24:50,707] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a9530a5: defining beans [propertyConfigurer,dataSource,sessionFactory,transactionManager,userDao,userService,org.springframework.beans.factory.config.CustomEditorConfigurer#0,xmppHandler,filterChainBuilder,ioAcceptor]; root of factory hierarchy
+{INFO } [2014-02-18 10:24:50,770] <org.hibernate.cfg.annotations.Version> : Hibernate Annotations 3.4.0.GA
+{INFO } [2014-02-18 10:24:50,777] <org.hibernate.cfg.Environment> : Hibernate 3.3.1.GA
+{INFO } [2014-02-18 10:24:50,779] <org.hibernate.cfg.Environment> : hibernate.properties not found
+{INFO } [2014-02-18 10:24:50,781] <org.hibernate.cfg.Environment> : Bytecode provider name : javassist
+{INFO } [2014-02-18 10:24:50,784] <org.hibernate.cfg.Environment> : using JDK 1.4 java.sql.Timestamp handling
+{INFO } [2014-02-18 10:24:50,822] <org.hibernate.annotations.common.Version> : Hibernate Commons Annotations 3.1.0.GA
+{INFO } [2014-02-18 10:24:50,826] <org.hibernate.cfg.Configuration> : configuring from url: file:/C:/Users/MGC01/Desktop/android%20push/android%20GCM/androidpn-server-0.5.0-bin/androidpn-server-0.5.0/conf/hibernate.cfg.xml
+{INFO } [2014-02-18 10:24:50,871] <org.hibernate.cfg.Configuration> : Configured SessionFactory: null
+{INFO } [2014-02-18 10:24:50,905] <org.hibernate.cfg.AnnotationBinder> : Binding entity from annotated class: org.androidpn.server.model.User
+{INFO } [2014-02-18 10:24:50,932] <org.hibernate.cfg.annotations.EntityBinder> : Bind entity org.androidpn.server.model.User on table apn_user
+{INFO } [2014-02-18 10:24:50,965] <org.hibernate.cfg.AnnotationConfiguration> : Hibernate Validator not found: ignoring
+{INFO } [2014-02-18 10:24:50,965] <org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean> : Building new Hibernate SessionFactory
+{INFO } [2014-02-18 10:24:50,967] <org.hibernate.cfg.search.HibernateSearchEventListenerRegister> : Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+{INFO } [2014-02-18 10:24:51,000] <org.hibernate.connection.ConnectionProviderFactory> : Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+{INFO } [2014-02-18 10:24:51,169] <org.hibernate.cfg.SettingsFactory> : RDBMS: HSQL Database Engine, version: 1.8.0
+{INFO } [2014-02-18 10:24:51,169] <org.hibernate.cfg.SettingsFactory> : JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+{INFO } [2014-02-18 10:24:51,179] <org.hibernate.dialect.Dialect> : Using dialect: org.hibernate.dialect.HSQLDialect
+{INFO } [2014-02-18 10:24:51,182] <org.hibernate.transaction.TransactionFactoryFactory> : Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+{INFO } [2014-02-18 10:24:51,183] <org.hibernate.transaction.TransactionManagerLookupFactory> : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+{INFO } [2014-02-18 10:24:51,183] <org.hibernate.cfg.SettingsFactory> : Automatic flush during beforeCompletion(): disabled
+{INFO } [2014-02-18 10:24:51,184] <org.hibernate.cfg.SettingsFactory> : Automatic session close at end of transaction: disabled
+{INFO } [2014-02-18 10:24:51,194] <org.hibernate.cfg.SettingsFactory> : JDBC batch size: 15
+{INFO } [2014-02-18 10:24:51,195] <org.hibernate.cfg.SettingsFactory> : JDBC batch updates for versioned data: disabled
+{INFO } [2014-02-18 10:24:51,196] <org.hibernate.cfg.SettingsFactory> : Scrollable result sets: enabled
+{INFO } [2014-02-18 10:24:51,198] <org.hibernate.cfg.SettingsFactory> : JDBC3 getGeneratedKeys(): disabled
+{INFO } [2014-02-18 10:24:51,199] <org.hibernate.cfg.SettingsFactory> : Connection release mode: auto
+{INFO } [2014-02-18 10:24:51,199] <org.hibernate.cfg.SettingsFactory> : Default batch fetch size: 1
+{INFO } [2014-02-18 10:24:51,201] <org.hibernate.cfg.SettingsFactory> : Generate SQL with comments: enabled
+{INFO } [2014-02-18 10:24:51,201] <org.hibernate.cfg.SettingsFactory> : Order SQL updates by primary key: disabled
+{INFO } [2014-02-18 10:24:51,202] <org.hibernate.cfg.SettingsFactory> : Order SQL inserts for batching: disabled
+{INFO } [2014-02-18 10:24:51,204] <org.hibernate.cfg.SettingsFactory> : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+{INFO } [2014-02-18 10:24:51,205] <org.hibernate.hql.ast.ASTQueryTranslatorFactory> : Using ASTQueryTranslatorFactory
+{INFO } [2014-02-18 10:24:51,206] <org.hibernate.cfg.SettingsFactory> : Query language substitutions: {}
+{INFO } [2014-02-18 10:24:51,206] <org.hibernate.cfg.SettingsFactory> : JPA-QL strict compliance: disabled
+{INFO } [2014-02-18 10:24:51,207] <org.hibernate.cfg.SettingsFactory> : Second-level cache: enabled
+{INFO } [2014-02-18 10:24:51,207] <org.hibernate.cfg.SettingsFactory> : Query cache: disabled
+{INFO } [2014-02-18 10:24:51,212] <org.hibernate.cfg.SettingsFactory> : Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+{INFO } [2014-02-18 10:24:51,212] <org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge> : Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+{INFO } [2014-02-18 10:24:51,214] <org.hibernate.cfg.SettingsFactory> : Optimize cache for minimal puts: disabled
+{INFO } [2014-02-18 10:24:51,215] <org.hibernate.cfg.SettingsFactory> : Structured second-level cache entries: disabled
+{INFO } [2014-02-18 10:24:51,218] <org.hibernate.cfg.SettingsFactory> : Statistics: disabled
+{INFO } [2014-02-18 10:24:51,219] <org.hibernate.cfg.SettingsFactory> : Deleted entity synthetic identifier rollback: disabled
+{INFO } [2014-02-18 10:24:51,220] <org.hibernate.cfg.SettingsFactory> : Default entity-mode: pojo
+{INFO } [2014-02-18 10:24:51,220] <org.hibernate.cfg.SettingsFactory> : Named query checking : enabled
+{INFO } [2014-02-18 10:24:51,255] <org.hibernate.impl.SessionFactoryImpl> : building session factory
+{INFO } [2014-02-18 10:24:51,431] <org.hibernate.impl.SessionFactoryObjectFactory> : Not binding factory to JNDI, no JNDI name configured
+{INFO } [2014-02-18 10:24:51,435] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : Running hbm2ddl schema update
+{INFO } [2014-02-18 10:24:51,435] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : fetching database metadata
+{INFO } [2014-02-18 10:24:51,442] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : updating schema
+{INFO } [2014-02-18 10:24:51,465] <org.hibernate.tool.hbm2ddl.TableMetadata> : table found: PUBLIC.APN_USER
+{INFO } [2014-02-18 10:24:51,465] <org.hibernate.tool.hbm2ddl.TableMetadata> : columns: [created_date, id, username, updated_date, email, name, password]
+{INFO } [2014-02-18 10:24:51,466] <org.hibernate.tool.hbm2ddl.TableMetadata> : foreign keys: []
+{INFO } [2014-02-18 10:24:51,466] <org.hibernate.tool.hbm2ddl.TableMetadata> : indexes: [sys_idx_sys_ct_46_49, sys_idx_47]
+{INFO } [2014-02-18 10:24:51,467] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : schema update complete
+{INFO } [2014-02-18 10:24:51,488] <org.springframework.orm.hibernate3.HibernateTransactionManager> : Using DataSource [org.apache.commons.dbcp.BasicDataSource@793903f1] of Hibernate SessionFactory for HibernateTransactionManager
+{DEBUG} [2014-02-18 10:24:51,561] <org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder> : LinkedHashMap is an ordered map.
+{INFO } [2014-02-18 10:24:51,591] <org.androidpn.server.xmpp.XmppServer> : Spring Configuration loaded.
+{INFO } [2014-02-18 10:24:51,649] <org.mortbay.log> : Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+{INFO } [2014-02-18 10:24:51,653] <org.mortbay.log> : jetty-6.1.25
+{INFO } [2014-02-18 10:24:51,877] </> : Initializing Spring root WebApplicationContext
+{INFO } [2014-02-18 10:24:51,877] <org.springframework.web.context.ContextLoader> : Root WebApplicationContext: initialization started
+{INFO } [2014-02-18 10:24:51,880] <org.springframework.web.context.support.XmlWebApplicationContext> : Refreshing org.springframework.web.context.support.XmlWebApplicationContext@24915432: display name [Root WebApplicationContext]; startup date [Tue Feb 18 10:24:51 CST 2014]; root of context hierarchy
+{INFO } [2014-02-18 10:24:51,884] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+{INFO } [2014-02-18 10:24:51,902] <org.springframework.web.context.support.XmlWebApplicationContext> : Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@24915432]: org.springframework.beans.factory.support.DefaultListableBeanFactory@56ae1284
+{INFO } [2014-02-18 10:24:51,909] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@56ae1284: defining beans []; root of factory hierarchy
+{INFO } [2014-02-18 10:24:51,909] <org.springframework.web.context.ContextLoader> : Root WebApplicationContext: initialization completed in 31 ms
+{INFO } [2014-02-18 10:24:51,953] </> : Initializing Spring FrameworkServlet 'dispatcher'
+{INFO } [2014-02-18 10:24:51,954] <org.springframework.web.servlet.DispatcherServlet> : FrameworkServlet 'dispatcher': initialization started
+{INFO } [2014-02-18 10:24:51,955] <org.springframework.web.context.support.XmlWebApplicationContext> : Refreshing org.springframework.web.context.support.XmlWebApplicationContext@63854b3a: display name [WebApplicationContext for namespace 'dispatcher-servlet']; startup date [Tue Feb 18 10:24:51 CST 2014]; parent: org.springframework.web.context.support.XmlWebApplicationContext@24915432
+{INFO } [2014-02-18 10:24:51,955] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+{INFO } [2014-02-18 10:24:51,975] <org.springframework.web.context.support.XmlWebApplicationContext> : Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@63854b3a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@74e83d18
+{INFO } [2014-02-18 10:24:51,995] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@74e83d18: defining beans [urlMapping,filenameController,userController,sessionController,notificationController,paramResolver,viewResolver,messageSource]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@56ae1284
+{DEBUG} [2014-02-18 10:24:52,012] <org.androidpn.server.console.controller.NotificationController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.NotificationController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:24:52,012] <org.androidpn.server.console.controller.NotificationController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.NotificationController.send(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:24:52,028] <org.androidpn.server.console.controller.UserController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.UserController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:24:52,038] <org.androidpn.server.console.controller.SessionController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.SessionController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{INFO } [2014-02-18 10:24:52,071] <org.springframework.web.servlet.DispatcherServlet> : FrameworkServlet 'dispatcher': initialization completed in 117 ms
+{INFO } [2014-02-18 10:24:52,075] <org.mortbay.log> : Started SelectChannelConnector@127.0.0.1:7070
+{DEBUG} [2014-02-18 10:24:52,076] <org.androidpn.server.container.AdminConsole> : Admin console started.
+{INFO } [2014-02-18 10:24:52,076] <org.androidpn.server.xmpp.XmppServer> : Admin console listening at http://127.0.0.1:7070
+{INFO } [2014-02-18 10:24:52,077] <org.androidpn.server.xmpp.XmppServer> : XmppServer started: 127.0.0.1
+{INFO } [2014-02-18 10:24:52,077] <org.androidpn.server.xmpp.XmppServer> : Androidpn Server v0.5.0
+{DEBUG} [2014-02-18 10:36:05,630] <org.androidpn.server.xmpp.XmppServer> : base.dir=..
+{DEBUG} [2014-02-18 10:36:05,653] <org.apache.commons.configuration.ConfigurationUtils> : ConfigurationUtils.locate(): base is C:\Users\MGC01\Desktop\android push\android GCM\androidpn-server-0.5.0-bin\androidpn-server-0.5.0\bin, name is config.xml
+{DEBUG} [2014-02-18 10:36:05,657] <org.apache.commons.configuration.ConfigurationUtils> : Loading configuration from the context classpath (config.xml)
+{DEBUG} [2014-02-18 10:36:05,745] <org.apache.commons.configuration.ConfigurationUtils> : ConfigurationUtils.locate(): base is C:\Users\MGC01\Desktop\android push\android GCM\androidpn-server-0.5.0-bin\androidpn-server-0.5.0\bin, name is config.properties
+{DEBUG} [2014-02-18 10:36:05,746] <org.apache.commons.configuration.ConfigurationUtils> : Loading configuration from the context classpath (config.properties)
+{INFO } [2014-02-18 10:36:05,754] <org.androidpn.server.util.ConfigManager> : Configuration loaded: config.xml
+{DEBUG} [2014-02-18 10:36:05,755] <org.androidpn.server.xmpp.XmppServer> : server.home.dir=C:\Users\MGC01\Desktop\android push\android GCM\androidpn-server-0.5.0-bin\androidpn-server-0.5.0
+{INFO } [2014-02-18 10:36:05,788] <org.springframework.context.support.ClassPathXmlApplicationContext> : Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@665b9efd: display name [org.springframework.context.support.ClassPathXmlApplicationContext@665b9efd]; startup date [Tue Feb 18 10:36:05 CST 2014]; root of context hierarchy
+{INFO } [2014-02-18 10:36:05,833] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from class path resource [spring-config.xml]
+{INFO } [2014-02-18 10:36:06,008] <org.springframework.context.support.ClassPathXmlApplicationContext> : Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@665b9efd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63001872
+{INFO } [2014-02-18 10:36:06,052] <org.springframework.beans.factory.config.PropertyPlaceholderConfigurer> : Loading properties file from class path resource [jdbc.properties]
+{INFO } [2014-02-18 10:36:06,064] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63001872: defining beans [propertyConfigurer,dataSource,sessionFactory,transactionManager,userDao,userService,org.springframework.beans.factory.config.CustomEditorConfigurer#0,xmppHandler,filterChainBuilder,ioAcceptor]; root of factory hierarchy
+{INFO } [2014-02-18 10:36:06,126] <org.hibernate.cfg.annotations.Version> : Hibernate Annotations 3.4.0.GA
+{INFO } [2014-02-18 10:36:06,133] <org.hibernate.cfg.Environment> : Hibernate 3.3.1.GA
+{INFO } [2014-02-18 10:36:06,136] <org.hibernate.cfg.Environment> : hibernate.properties not found
+{INFO } [2014-02-18 10:36:06,138] <org.hibernate.cfg.Environment> : Bytecode provider name : javassist
+{INFO } [2014-02-18 10:36:06,140] <org.hibernate.cfg.Environment> : using JDK 1.4 java.sql.Timestamp handling
+{INFO } [2014-02-18 10:36:06,178] <org.hibernate.annotations.common.Version> : Hibernate Commons Annotations 3.1.0.GA
+{INFO } [2014-02-18 10:36:06,182] <org.hibernate.cfg.Configuration> : configuring from url: file:/C:/Users/MGC01/Desktop/android%20push/android%20GCM/androidpn-server-0.5.0-bin/androidpn-server-0.5.0/conf/hibernate.cfg.xml
+{INFO } [2014-02-18 10:36:06,227] <org.hibernate.cfg.Configuration> : Configured SessionFactory: null
+{INFO } [2014-02-18 10:36:06,261] <org.hibernate.cfg.AnnotationBinder> : Binding entity from annotated class: org.androidpn.server.model.User
+{INFO } [2014-02-18 10:36:06,288] <org.hibernate.cfg.annotations.EntityBinder> : Bind entity org.androidpn.server.model.User on table apn_user
+{INFO } [2014-02-18 10:36:06,322] <org.hibernate.cfg.AnnotationConfiguration> : Hibernate Validator not found: ignoring
+{INFO } [2014-02-18 10:36:06,322] <org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean> : Building new Hibernate SessionFactory
+{INFO } [2014-02-18 10:36:06,324] <org.hibernate.cfg.search.HibernateSearchEventListenerRegister> : Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+{INFO } [2014-02-18 10:36:06,357] <org.hibernate.connection.ConnectionProviderFactory> : Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+{INFO } [2014-02-18 10:36:06,522] <org.hibernate.cfg.SettingsFactory> : RDBMS: HSQL Database Engine, version: 1.8.0
+{INFO } [2014-02-18 10:36:06,522] <org.hibernate.cfg.SettingsFactory> : JDBC driver: HSQL Database Engine Driver, version: 1.8.0
+{INFO } [2014-02-18 10:36:06,532] <org.hibernate.dialect.Dialect> : Using dialect: org.hibernate.dialect.HSQLDialect
+{INFO } [2014-02-18 10:36:06,535] <org.hibernate.transaction.TransactionFactoryFactory> : Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+{INFO } [2014-02-18 10:36:06,536] <org.hibernate.transaction.TransactionManagerLookupFactory> : No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+{INFO } [2014-02-18 10:36:06,536] <org.hibernate.cfg.SettingsFactory> : Automatic flush during beforeCompletion(): disabled
+{INFO } [2014-02-18 10:36:06,536] <org.hibernate.cfg.SettingsFactory> : Automatic session close at end of transaction: disabled
+{INFO } [2014-02-18 10:36:06,543] <org.hibernate.cfg.SettingsFactory> : JDBC batch size: 15
+{INFO } [2014-02-18 10:36:06,544] <org.hibernate.cfg.SettingsFactory> : JDBC batch updates for versioned data: disabled
+{INFO } [2014-02-18 10:36:06,545] <org.hibernate.cfg.SettingsFactory> : Scrollable result sets: enabled
+{INFO } [2014-02-18 10:36:06,547] <org.hibernate.cfg.SettingsFactory> : JDBC3 getGeneratedKeys(): disabled
+{INFO } [2014-02-18 10:36:06,547] <org.hibernate.cfg.SettingsFactory> : Connection release mode: auto
+{INFO } [2014-02-18 10:36:06,548] <org.hibernate.cfg.SettingsFactory> : Default batch fetch size: 1
+{INFO } [2014-02-18 10:36:06,549] <org.hibernate.cfg.SettingsFactory> : Generate SQL with comments: enabled
+{INFO } [2014-02-18 10:36:06,550] <org.hibernate.cfg.SettingsFactory> : Order SQL updates by primary key: disabled
+{INFO } [2014-02-18 10:36:06,551] <org.hibernate.cfg.SettingsFactory> : Order SQL inserts for batching: disabled
+{INFO } [2014-02-18 10:36:06,552] <org.hibernate.cfg.SettingsFactory> : Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+{INFO } [2014-02-18 10:36:06,554] <org.hibernate.hql.ast.ASTQueryTranslatorFactory> : Using ASTQueryTranslatorFactory
+{INFO } [2014-02-18 10:36:06,554] <org.hibernate.cfg.SettingsFactory> : Query language substitutions: {}
+{INFO } [2014-02-18 10:36:06,555] <org.hibernate.cfg.SettingsFactory> : JPA-QL strict compliance: disabled
+{INFO } [2014-02-18 10:36:06,555] <org.hibernate.cfg.SettingsFactory> : Second-level cache: enabled
+{INFO } [2014-02-18 10:36:06,556] <org.hibernate.cfg.SettingsFactory> : Query cache: disabled
+{INFO } [2014-02-18 10:36:06,560] <org.hibernate.cfg.SettingsFactory> : Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+{INFO } [2014-02-18 10:36:06,561] <org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge> : Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+{INFO } [2014-02-18 10:36:06,563] <org.hibernate.cfg.SettingsFactory> : Optimize cache for minimal puts: disabled
+{INFO } [2014-02-18 10:36:06,563] <org.hibernate.cfg.SettingsFactory> : Structured second-level cache entries: disabled
+{INFO } [2014-02-18 10:36:06,567] <org.hibernate.cfg.SettingsFactory> : Statistics: disabled
+{INFO } [2014-02-18 10:36:06,567] <org.hibernate.cfg.SettingsFactory> : Deleted entity synthetic identifier rollback: disabled
+{INFO } [2014-02-18 10:36:06,568] <org.hibernate.cfg.SettingsFactory> : Default entity-mode: pojo
+{INFO } [2014-02-18 10:36:06,569] <org.hibernate.cfg.SettingsFactory> : Named query checking : enabled
+{INFO } [2014-02-18 10:36:06,604] <org.hibernate.impl.SessionFactoryImpl> : building session factory
+{INFO } [2014-02-18 10:36:06,782] <org.hibernate.impl.SessionFactoryObjectFactory> : Not binding factory to JNDI, no JNDI name configured
+{INFO } [2014-02-18 10:36:06,787] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : Running hbm2ddl schema update
+{INFO } [2014-02-18 10:36:06,787] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : fetching database metadata
+{INFO } [2014-02-18 10:36:06,793] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : updating schema
+{INFO } [2014-02-18 10:36:06,817] <org.hibernate.tool.hbm2ddl.TableMetadata> : table found: PUBLIC.APN_USER
+{INFO } [2014-02-18 10:36:06,817] <org.hibernate.tool.hbm2ddl.TableMetadata> : columns: [created_date, id, username, updated_date, email, name, password]
+{INFO } [2014-02-18 10:36:06,817] <org.hibernate.tool.hbm2ddl.TableMetadata> : foreign keys: []
+{INFO } [2014-02-18 10:36:06,818] <org.hibernate.tool.hbm2ddl.TableMetadata> : indexes: [sys_idx_sys_ct_46_49, sys_idx_47]
+{INFO } [2014-02-18 10:36:06,818] <org.hibernate.tool.hbm2ddl.SchemaUpdate> : schema update complete
+{INFO } [2014-02-18 10:36:06,839] <org.springframework.orm.hibernate3.HibernateTransactionManager> : Using DataSource [org.apache.commons.dbcp.BasicDataSource@50174503] of Hibernate SessionFactory for HibernateTransactionManager
+{DEBUG} [2014-02-18 10:36:06,912] <org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder> : LinkedHashMap is an ordered map.
+{INFO } [2014-02-18 10:36:06,942] <org.androidpn.server.xmpp.XmppServer> : Spring Configuration loaded.
+{INFO } [2014-02-18 10:36:06,997] <org.mortbay.log> : Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+{INFO } [2014-02-18 10:36:07,002] <org.mortbay.log> : jetty-6.1.25
+{INFO } [2014-02-18 10:36:07,219] </> : Initializing Spring root WebApplicationContext
+{INFO } [2014-02-18 10:36:07,220] <org.springframework.web.context.ContextLoader> : Root WebApplicationContext: initialization started
+{INFO } [2014-02-18 10:36:07,223] <org.springframework.web.context.support.XmlWebApplicationContext> : Refreshing org.springframework.web.context.support.XmlWebApplicationContext@4a052c9e: display name [Root WebApplicationContext]; startup date [Tue Feb 18 10:36:07 CST 2014]; root of context hierarchy
+{INFO } [2014-02-18 10:36:07,226] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+{INFO } [2014-02-18 10:36:07,244] <org.springframework.web.context.support.XmlWebApplicationContext> : Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@4a052c9e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@29ccc3c6
+{INFO } [2014-02-18 10:36:07,251] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29ccc3c6: defining beans []; root of factory hierarchy
+{INFO } [2014-02-18 10:36:07,251] <org.springframework.web.context.ContextLoader> : Root WebApplicationContext: initialization completed in 31 ms
+{INFO } [2014-02-18 10:36:07,295] </> : Initializing Spring FrameworkServlet 'dispatcher'
+{INFO } [2014-02-18 10:36:07,295] <org.springframework.web.servlet.DispatcherServlet> : FrameworkServlet 'dispatcher': initialization started
+{INFO } [2014-02-18 10:36:07,297] <org.springframework.web.context.support.XmlWebApplicationContext> : Refreshing org.springframework.web.context.support.XmlWebApplicationContext@410236bb: display name [WebApplicationContext for namespace 'dispatcher-servlet']; startup date [Tue Feb 18 10:36:07 CST 2014]; parent: org.springframework.web.context.support.XmlWebApplicationContext@4a052c9e
+{INFO } [2014-02-18 10:36:07,297] <org.springframework.beans.factory.xml.XmlBeanDefinitionReader> : Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+{INFO } [2014-02-18 10:36:07,317] <org.springframework.web.context.support.XmlWebApplicationContext> : Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@410236bb]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3cced2a6
+{INFO } [2014-02-18 10:36:07,337] <org.springframework.beans.factory.support.DefaultListableBeanFactory> : Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3cced2a6: defining beans [urlMapping,filenameController,userController,sessionController,notificationController,paramResolver,viewResolver,messageSource]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@29ccc3c6
+{DEBUG} [2014-02-18 10:36:07,354] <org.androidpn.server.console.controller.NotificationController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.NotificationController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:36:07,355] <org.androidpn.server.console.controller.NotificationController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.NotificationController.send(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:36:07,370] <org.androidpn.server.console.controller.UserController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.UserController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{DEBUG} [2014-02-18 10:36:07,380] <org.androidpn.server.console.controller.SessionController> : Found action method [public org.springframework.web.servlet.ModelAndView org.androidpn.server.console.controller.SessionController.list(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception]
+{INFO } [2014-02-18 10:36:07,413] <org.springframework.web.servlet.DispatcherServlet> : FrameworkServlet 'dispatcher': initialization completed in 117 ms
+{INFO } [2014-02-18 10:36:07,417] <org.mortbay.log> : Started SelectChannelConnector@127.0.0.1:7070
+{DEBUG} [2014-02-18 10:36:07,417] <org.androidpn.server.container.AdminConsole> : Admin console started.
+{INFO } [2014-02-18 10:36:07,418] <org.androidpn.server.xmpp.XmppServer> : Admin console listening at http://127.0.0.1:7070
+{INFO } [2014-02-18 10:36:07,418] <org.androidpn.server.xmpp.XmppServer> : XmppServer started: 127.0.0.1
+{INFO } [2014-02-18 10:36:07,419] <org.androidpn.server.xmpp.XmppServer> : Androidpn Server v0.5.0

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5"> <display-name>Trivia_rest</display-name>
+ 
+  <servlet>
+    <description></description>
+    <display-name>PushServlet</display-name>
+    <servlet-name>PushServlet</servlet-name>
+    <servlet-class>com.matrix.servlet.PushServlet</servlet-class>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PushServlet</servlet-name>
+    <url-pattern>/PushServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>SendMessageServlet</display-name>
+    <servlet-name>SendMessageServlet</servlet-name>
+    <servlet-class>com.matrix.servlet.SendMessageServlet</servlet-class>
+    
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendMessageServlet</servlet-name>
+    <url-pattern>/SendMessageServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>InitializeServlet</display-name>
+    <servlet-name>InitializeServlet</servlet-name>
+    <servlet-class>com.matrix.servlet.InitializeServlet</servlet-class>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitializeServlet</servlet-name>
+    <url-pattern>/InitializeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
